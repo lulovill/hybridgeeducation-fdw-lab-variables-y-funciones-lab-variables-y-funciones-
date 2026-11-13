@@ -4,7 +4,7 @@
 //escribe tu función aquí. Recuerda que el nombre de la función debe ser exactamente "esPar"
 
 function esPar (numero){
-    const residuo = numero % 2;
+    let residuo = numero % 2;
     return residuo === 0;
 }
 
