@@ -3,6 +3,11 @@
 
 //escribe tu función aquí. Recuerda que el nombre de la función debe ser exactamente "esPar"
 
+function esPar (numero){
+    const residuo = numero % 2;
+    return residuo === 0;
+}
+
 
 // Exporta la función para que pueda ser utilizada en las pruebas
 module.exports = {
