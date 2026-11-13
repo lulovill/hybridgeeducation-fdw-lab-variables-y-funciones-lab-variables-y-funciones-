@@ -3,6 +3,8 @@
 
 function obtenerNombre() {
     // Escribe tu código aquí
+    let nombre = "Luis Villarreal";
+    return nombre
 }
 
 // No modificar.
