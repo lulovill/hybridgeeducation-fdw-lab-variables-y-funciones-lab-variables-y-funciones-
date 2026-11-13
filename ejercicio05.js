@@ -3,7 +3,7 @@
 
 //escribe tu función aquí. Recuerda que el nombre exacto de la función es "calcularAreaRectangulo"
 function calcularAreaRectangulo (ancho, alto){
-    const area = ancho * alto;
+    let area = ancho * alto;
 
     return area;
 }
